@@ -62,7 +62,7 @@ class Toggle
  *  CLASS VARIABLES DECLARATION
  */
 
-Toggle Fan1 = Toggle(inputpin, 500);
+Toggle Button = Toggle(inputpin, 500);
 
 void setup()
 {
@@ -71,5 +71,5 @@ void setup()
 
 void loop()
 {
-  digitalWrite(outputpin, Fan1.updater());
+  digitalWrite(outputpin, Button.updater());
 }
