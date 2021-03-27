@@ -1,6 +1,5 @@
 int inputpin = 6;
 int outputpin = 2;
-int state;
 /*
  * TOGGLE CLASS DEFINITION
  */
@@ -56,6 +55,5 @@ void setup()
 
 void loop()
 {
-  state = Fan1.updater();
-  digitalWrite(outputpin, state);
+  digitalWrite(outputpin, Fan1.updater());
 }
