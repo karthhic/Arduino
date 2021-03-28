@@ -2,11 +2,11 @@
 The input here is pin 6 is connected to button.
            10 K
 5V -----/\/\/\/\----- Ground
-                  |
-                  |
-                 |O| Button
-                  |
-                Pin 6
+      |
+      |
+     |O| Button
+      |
+     Pin 6
 The Output pin is 2 
             LED       220 Ohms
 Pin 2 ------|>|-----/\/\/\/\----- Ground
